@@ -2817,5 +2817,341 @@
     ],
     "correct": 4,
     "thematic": "parcial2"
+  },
+  {
+    "id": 1762294038899,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, el servicio de Webmail, para realizar las comunicaciones a través de un firewall utiliza el Puerto:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-006-Webmail-OWA.jpg",
+    "answers": [
+      "HTTP Puerto 80.",
+      "FTP Puertos 20 y 21.",
+      "SMTP Puerto 25.",
+      "DNS Puerto 53.",
+      "HTTP Puerto 8080.",
+      "Ambas a y e.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294081993,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, el Protocolo Simple de Transferencia de Correo, para realizar las comunicaciones a través de un firewall utiliza el Puerto:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-005-SMTP.jpg",
+    "answers": [
+      "HTTP Puerto 80.",
+      "FTP Puertos 20 y 21.",
+      "SMTP Puerto 25.",
+      "DNS Puerto 53.",
+      "HTTP Puerto 8080.",
+      "Ambas a y e.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294135840,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio HTTPS estamos hablando de:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-010--HTTPs.jpg",
+    "answers": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto Seguro.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294165588,
+    "question": "Dentro del Esquema del Protocolo TCP/ IP, y para identificar cada WWW, existe un sistema de nombres jerárquico que permite desarrollar el nombre a partir de una secuencia de segmentos alfanuméricos separados por puntos, teniendo la parte izquierda del mismo correspondiente al nombre de la computadora y los otros segmentos al grupo al cual pertenecen. Por lo tanto, nos estamos refiriendo al:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-002-DNS.jpg",
+    "answers": [
+      "Sistema de Nombres de Dominio (DNS).",
+      "Proxy Reverse.",
+      "Monitor de Web.",
+      "Ambas a y c.",
+      "Todas las Anteriores son Correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294201600,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, el Sistema de Nombres de Dominio para realizar las comunicaciones a través de un firewall utiliza el Puerto:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-008--DNS---PUERTO.jpg",
+    "answers": [
+      "Puerto 80.",
+      "Puertos 20 y 21.",
+      "Puerto 25.",
+      "Puerto 53.",
+      "Puerto 8080.",
+      "Ambas a y e.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294230436,
+    "question": "El Protocolo de red que permite el intercambio de datos utilizando un canal seguro entre dos dispositivos conectados en red y permite emulación de Terminal en modo Túnel se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-004-SSH.jpg",
+    "answers": [
+      "DNS.",
+      "SSH.",
+      "ICMP.",
+      "TELNET.",
+      "SONET.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294277370,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio FTPS estamos hablando de:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-009--FTPs.jpg",
+    "answers": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 7,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294318439,
+    "question": "El Reverse Proxy Server es un componente que aplica técnicas para:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-003-Proxy-Reverse.jpg",
+    "answers": [
+      "Resolver nombres de dominio.",
+      "Bloquear el acceso a puertos.",
+      "Optimizar el correo electrónico.",
+      "Asignar dinámicamente direcciones IP.",
+      "Realizar Balanceo de carga.",
+      "Realizar el NAT.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762294349963,
+    "question": "El Servicio/protocolo de red de tipo Protocolo Cliente –Servidor en el que generalmente un servidor posee una lista de direcciones IP dinámicas y las va asignando a los clientes conforme éstas van estando libres, sabiendo en todo momento quién ha estado en posesión de esa IP, cuánto tiempo la ha tenido y a quién se la ha asignado después corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-001-DHCP.jpg",
+    "answers": [
+      "HTTP.",
+      "FTP.",
+      "SMTP.",
+      "DNS.",
+      "SNMP.",
+      "DHCP.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762295135272,
+    "question": "El Servicio/ Protocolo de Internet, que implementa un Servicio de directorio (metadirectorio) Jerárquico y Distribuido, utilizado para administrar un repositorio centralizado de usuarios, aplicaciones y recursos y define permisos, configurados por el administrador para permitir el acceso a ciertos usuarios a la base de datos, y mantener información en privado corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-007--LDAP---Active-Directory.jpg",
+    "answers": [
+      "LDAP.",
+      "FTP.",
+      "SMTP.",
+      "DNS.",
+      "HTTP.",
+      "DHCP.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762296348355,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, aquel que limita el tamaño de los archivos atacheados en el servicio de correo electrónico comunicaciones corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-013--Monitor-de-Correo-Electronico.jpg",
+    "answers": [
+      "Proxy.",
+      "Monitor de Correo Electrónico.",
+      "Firewall.",
+      "Monitor de Ancho de Banda.",
+      "Radius.",
+      "Monitor de Pagina WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762296384088,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio SSH estamos hablando de:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-011--SSH.jpg",
+    "answers": [
+      "El acceso en modo terminal remoto a un equipo computador por canal encriptado.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e Hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762296436775,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio IRC estamos hablando de:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-014--IRC.jpg",
+    "answers": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e Hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762296480621,
+    "question": "Aquel servicio que se encarga de validar y dar acceso remoto a usuarios a la Red Interna se lo denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-016--Access-Server.jpg",
+    "answers": [
+      "Firewall.",
+      "Proxy.",
+      "Proxy Reverse.",
+      "Access Server.",
+      "Active Directory.",
+      "Router.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762296518297,
+    "question": " Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio SMTP estamos hablando de:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-015--SMTP.jpg",
+    "answers": [
+      "El acceso en modo terminal remoto a un equipo computador.",
+      "Protocolo de Transferencia de archivos.",
+      "Protocolo mundial para intercambiar mensajes de texto en un canal.",
+      "Colección de ficheros o páginas WEB que incluyen todo tipo de información e hipermedia.",
+      "Protocolo Simple de transferencia de Correo.",
+      "Protocolo Simple de Transferencia de Hipertexto.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762297862990,
+    "question": "El servicio que limita tiempos de acceso al uso de la red internet en lo que respecta a páginas Webs se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-018--Monitor-de-Pagina-WEB.jpg",
+    "answers": [
+      "Proxy.",
+      "Editor de Reglas.",
+      "Monitor de Ancho de Banda.",
+      "Monitor de Correo Electrónico.",
+      "Radius.",
+      "Monitor de Página WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762297897963,
+    "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, El Firewall realiza una protección de nuestra red bloqueando las comunicaciones a través de los Puertos. Para configurar un servicio y poder ser ofrecido a través de los mismos debo hacer uso del:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-017--Editor-de-Reglas.jpg",
+    "answers": [
+      "Proxy.",
+      "Editor de Reglas.",
+      "Monitor de Ancho de Banda.",
+      "Active Directory.",
+      "Radius.",
+      "Monitor de Pagina WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762297928766,
+    "question": "Decimos que el modelo Internet está basado en una red de redes con arquitectura o paradigma cliente-servidor, que aparte de los componentes físicos, hardware, protocolos, y Sistemas operativos la interacción cliente servidor necesita de:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-012--Arqutectura-Cliente-Servidor.jpg",
+    "answers": [
+      "La aplicación del servidor.",
+      "La aplicación del cliente.",
+      "Un algoritmo de compresión de datos.",
+      "Un algoritmo de encriptación de datos.",
+      "Ambas a y c.",
+      "Ambas a y b.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762297959194,
+    "question": "El servicio de internet que se encarga de Mantener un Cache Configurable (Activo/Pasivo) de los datos (páginas Webs) más solicitados o recientemente recuperados para mejorar la performance de respuesta ante solicitudes se lo denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-019--Proxy-Server.jpg",
+    "answers": [
+      "Proxy.",
+      "Proxy Reverse.",
+      "Monitor de Ancho de Banda.",
+      "Monitor de Correo Electrónico.",
+      "Radius.",
+      "Monitor de Página WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762297997319,
+    "question": "El servicio RR-DNS (Round Robin DNS): es una herramienta que se utiliza para aplicar técnicas de:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/6-020---DNS-RR.jpg",
+    "answers": [
+      "Cacheo de Páginas Webs.",
+      "Monitoreo de Reglas de firewall.",
+      "Monitoreo de Ancho de Banda.",
+      "Monitoreo de Correo Electrónico",
+      "Balanceo de Carga.",
+      "Monitoreo de Página WEB.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
   }
 ]
