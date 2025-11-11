@@ -3470,5 +3470,630 @@
     ],
     "correct": 3,
     "thematic": "parcial2"
+  },
+  {
+    "id": 1762874886421,
+    "question": "El ataque Syn Flood se basa con el comienzo de cientos de conexiones a un servidor, e interrumpiéndola inmediatamente. Corresponde a un tipo de ataque:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-010-TP9---SYN-Floy.jpg",
+    "answers": [
+      "Fuerza Bruta.",
+      "Spoofing.",
+      "Autenticación.",
+      "Denegación de Servicio.",
+      "Escaneo de Puertos.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762874902221,
+    "question": "El protocolo IP Sec cuando es configurado para transportar datos dentro de una red homogénea de tipo LAN en modo transporte encripta exclusivamente datos.\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-005-TP8---IPSEC.jpg",
+    "answers": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762874944019,
+    "question": "La Pieza electrónica que prueba la identidad de su propietario, así como el derecho a acceder a la información están basados en la norma estándar para los certificados digitales que corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-001-TP8---X509.jpg",
+    "answers": [
+      "RSA.",
+      "HASH.",
+      "DSA.",
+      "PGP.",
+      "X509.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762875004098,
+    "question": "El conjunto de datos asociados a un mensaje digital que permite garantizar la identidad del firmante y la integridad del mensaje se lo denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-002-TP8---Firma-Digital.jpg",
+    "answers": [
+      "Certificado.",
+      "Firma Electrónica.",
+      "Firma Holográfica.",
+      "X509.",
+      "Firma Digital.",
+      "Ninguna de las anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762875046088,
+    "question": "La Norma técnica anunciada por VISA y MASTERCARD que incluye el uso de Certificados Digitales, que asegura y autentica la integridad de los participantes en una operación económica y su código aplica técnicas de criptografía manteniendo el carácter confidencial de la información se la denomina\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-004-TP8---SET.jpg",
+    "answers": [
+      "PGP.",
+      "Kerberos.",
+      "SET.",
+      "SSL.",
+      "IP Sec.",
+      "S/MIME.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762875091261,
+    "question": "Existe un programa que permite verificar la ruta que realiza un conjunto de Paquetes o bloques de información a través de una Red de Internet. Dicho servicio debe estar bloqueado por nuestro Firewall para toda comunicación entrante e nuestra red. Este programa corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-008-TP8---Traceroute.jpg",
+    "answers": [
+      "WHOIS.",
+      "ICMP.",
+      "TraceRoute.",
+      "Finger.",
+      "Spoofing.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762875139700,
+    "question": "Dentro de los Beneficios del uso de la Firma Digital podemos destacar:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-003-TP8---Firma-Digital---Beneficios.jpg",
+    "answers": [
+      "Garantía de Procedencia.",
+      "Capacidad de Virtualizar.",
+      "Seguridad de no Intervención.",
+      "Identificación del firmante.",
+      "Todas las anteriores son correctas.",
+      "Hay más de una respuesta correcta.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762875171128,
+    "question": "El Protocolo IP Sec utilizado para realizar encriptación de datos aplicable a redes remotas y heterogéneas puede ser configurado como:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-009-TP8---Ipsec.jpg",
+    "answers": [
+      "Modo Túnel.",
+      "Modo Digital.",
+      "Modo Transporte.",
+      "Modo Analógico.",
+      "Ambas A y C.",
+      "Ambas B y C.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762875212333,
+    "question": "El Conjunto de Protocolos para soportar seguridad de intercambio de paquetes en VPNs estandarizado en IPv6 Se lo denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-007-TP8---IPSEC.jpg",
+    "answers": [
+      "PGP.",
+      "Kerberos.",
+      "SET.",
+      "SSL.",
+      "IP Sec.",
+      "DH5.",
+      "AES.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762875245081,
+    "question": "Dentro de la firma digital, La función o algoritmo aplicada a un mensaje de M bits, que da como resultado un Función de N bits y que constituye un resumen del mensaje original a transmitir dentro del sobre digital se la denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-006-TP8---Hash.jpg",
+    "answers": [
+      "RSA.",
+      "DSA.",
+      "HASH.",
+      "X509.",
+      "Ambas a y c.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762879699795,
+    "question": "Cuando se realiza una ciberincursión que provoca el “DNS Hijacking” y “DNS Poisoning” que consisten en la publicación ilegitima de resolución de un dominio mediante la modificación de los registros de un servidor DNS, Dicho ataque corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-013-TP9---Pharming.jpg",
+    "answers": [
+      "Jamming.",
+      "Pharming.",
+      "Keylogger.",
+      "Man in the Midlee.",
+      "ARP Poisoning.",
+      "Ramsomware.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762879724742,
+    "question": "Cuando nos referimos a MAC SPOOFING podemos afirmar que:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-015-TP9---ARP-Spoofing.jpg",
+    "answers": [
+      "Es un tipo de ataque de robo de identidad.",
+      "Es una técnica para clonar la dirección MAC de un dispositivo de red.",
+      "Es una Técnica que se utiliza en comunicaciones inalámbricas.",
+      "Es una técnica para cambiar la dirección MAC de un dispositivo de red.",
+      "Todas las Anteriores son Correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762879762995,
+    "question": "El Programa malicioso que restringen el acceso a determinadas partes o archivo del sistema operativo infectado, reteniendo el control del equipo y que encripta la información almacenada en el mismo para que no pueda ser accedida; solicitando un rescate financiero en criptomonedas para que sean desactivados se lo denomina.",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-012-TP9---Ramsomware.jpg",
+    "answers": [
+      "Jamming.",
+      "Pharming.",
+      "Keylogger.",
+      "Spoofing.",
+      "ARP Poisoning.",
+      "Ramsomware.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762879796630,
+    "question": "El tipo de ataque informático que consiste en una técnica de sniffing de paquetes circulante e inyección de datos malignos para producir determinados resultados en comunicaciones inalámbricas se lo denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-013-TP9---Main-in-de-Midle.jpg",
+    "answers": [
+      "Jamming.",
+      "Pharming.",
+      "Keylogger.",
+      "Spoofing.",
+      "ARP Poisoning.",
+      "Ramsomware.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 7,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762879825875,
+    "question": "Existe un tipo de peste o alimaña que funciona en su PC, sin su consentimiento o como parte de un consentimiento genérico, habitualmente se ejecuta en background y le abre ventanas emergentes en el programa navegador en concordancia con los sitios habituales que UD. visualiza. El tipo de malware corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-018-TP9---Spyware.jpg",
+    "answers": [
+      "Virus de Macro",
+      "Gusano.",
+      "Caballo de troya",
+      "Virus de sector de Arranque.",
+      "Spyware.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762879854262,
+    "question": "La técnica de Jamming o Flooding o inundación es una técnica que busca generar solicitudes maliciosas a un servicio de internet con la finalidad de hacer que el mismo se sature o entre en un modo de espera, de esta forma anula o limita su funcionamiento. Dicho ataque de acuerdo con su tipo corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-016-TP9---DDoS.jpg",
+    "answers": [
+      "Fuerza Bruta",
+      "Ramsomware.",
+      "Denegación de Servicio",
+      "Escaneo de Puertos.",
+      "Autenticación.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762879881857,
+    "question": "El Conficker (2008) era un virus que apareció en Ucrania e infectaba computadoras con sistemas Windows PC, Server 2003 y 2008. El Malware desactivaba Servicios de Update, Windows Security Center, Sistema Antivirus Defender. A su vez bloqueaba cuentas de Usuario, inundaba ARP y volvía los controladores de dominio lentos. Usaba como modo de propagación las redes y los pendrives. El tipo de virus corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-018-TP9---Conficker.jpg",
+    "answers": [
+      "Virus de Macro.",
+      "Gusano.",
+      "Caballo de troya.",
+      "Virus de Arranque.",
+      "Virus de Script.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880033734,
+    "question": "Un Programa Antivirus dentro de un entorno de red controlado debe cumplir con las siguientes funciones:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-020-TP9---Antivirus.jpg",
+    "answers": [
+      "La prevención de ejecución de código malicioso y su replicación en memoria.",
+      "La protección y bloqueo de Puertos",
+      "Analizar y buscar código malicioso desde archivos hasta comunicaciones (E-mail, trafico Web, etc.) dentro de nuestro entorno de red, servidores y terminales.",
+      "Proteger con sistemas de encriptación la información a ser transportada por la red.",
+      "Ambas a y b.",
+      "Ambas a y c",
+      "Ambas a y d.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880065009,
+    "question": "El software o hardware subrepticio que se encarga de registrar las pulsaciones que se realizan en el teclado, para posteriormente memorizarlas en un archivo o enviarlas a través de internet se lo denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-011-TP9---Keylogger.jpg",
+    "answers": [
+      "Keylogger.",
+      "Ramsomware.",
+      "Jamming.",
+      "IDS.",
+      "Pharming.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880100350,
+    "question": "Aquella incursión informática ilegal que tienen por objeto, el robo de datos personales de identidad e información de credenciales financieras; y a veces simula un sitio web para capturar datos de login con una pantalla de ingreso al sistema se la denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-017-TP9---Phising.jpg",
+    "answers": [
+      "Keylogger.",
+      "Ramsomware.",
+      "Phishing.",
+      "Flooding.",
+      "Pharming.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880359496,
+    "question": "La implementación de la tecnología 4 G tiene consigo el empleo de las siguientes características:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-009-TP9---4G-2.jpg",
+    "answers": [
+      "Tecnología móvil, que se caracteriza por emplear redes IP.",
+      "Los Datos se transfieren por paquetes conmutados.",
+      "Su velocidad de transferencia puede superar 1 GBPS.",
+      "Puede obtener una perfecta recepción para televisión de alta resolución.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880385755,
+    "question": "Los Estándares de 2ª generación de celulares como GSM/GRPS/EGRPS emplean el tipo de accesos donde varios usuarios comparten una frecuencia, pero transmiten en tiempos diferidos, a esos intervalos se les conoce como (Time Slot) ranuras de tiempo. Dicho tipo de acceso corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-007-TP9---TDMA.jpg",
+    "answers": [
+      "DHSS",
+      "MQAM",
+      "FHSS",
+      "CDMA",
+      "WCDMA",
+      "TDMA",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880411510,
+    "question": "El área delimitada donde se realiza la comunicación efectiva con un teléfono celular en la cual se encaminan las comunicaciones en forma de ondas de radio desde y hasta los terminales de los usuarios se la denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-001-TP9---Celda.jpg",
+    "answers": [
+      "WAN",
+      "TELCO",
+      "CELDA",
+      "Espectro Electromagnético.",
+      "SAN",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880457621,
+    "question": "Se pueden detallar los siguientes conceptos que caracterizaron a la comunicación celular de la 1ª Generación (1G).",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-003-TP9---Generaciones.jpg",
+    "answers": [
+      "Comunicaciones Analógicas",
+      "Comunicaciones Digitales",
+      "Solo Comunicaciones de Voz",
+      "Transmisión de SMS",
+      "Velocidad 2,4 KBPS",
+      "Velocidad 2 MBPS",
+      "Ambas a, c y e",
+      "Ambas b, d y f"
+    ],
+    "correct": 6,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880821316,
+    "question": "Dentro de las distintas generaciones de desarrollo de los celulares, el Smartphone aparece en la:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-004-TP9---Generaciones.jpg",
+    "answers": [
+      "1ª Generación",
+      "2ª Generación",
+      "3ª Generación",
+      "4ª Generación",
+      "5ª Generación",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880839141,
+    "question": "La Tecnología Mimo que permite múltiples rutas de acceso a múltiples antenas que mejora considerable en cuanto a la velocidad de transferencia, una cobertura mayor, mayor capacidad de más usuarios conectados y una mayor estabilidad se aplica tanto en comunicaciones WI FI (802.11 AC) como en comunicaciones celulares (4G).",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-008-TP9---Mimo-2.jpg",
+    "answers": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880892101,
+    "question": "La Tecnología de uso de comunicaciones celulares que permite múltiples rutas de acceso a múltiples antenas que mejora considerable en cuanto a la velocidad de transferencia, una cobertura mayor, mayor capacidad de más usuarios conectados y una mayor estabilidad se la denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-006-TP9---Mimo.jpg",
+    "answers": [
+      "WCDMA",
+      "MIMO",
+      "TDMA",
+      "CDMA",
+      "MQAM",
+      "FHSS",
+      "DHSS",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880917480,
+    "question": "Es el sistema que nos permite realizar llamadas de voz sobre la tecnología 4G o LTE., que utiliza tecnologías para llamadas de voz en internet como el protocolo SIP se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/02-009-TP1---4G-2.jpg",
+    "answers": [
+      "IPSec",
+      "LTE-TDD",
+      "SET",
+      "LAA",
+      "VoLTE",
+      "NB-LTE",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880945195,
+    "question": "Dentro de la 1ª Generaciones de Comunicaciones Celulares, el tipo de acceso donde cada corresponsal transmite y recibe información en una frecuencia asignada corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-002-TP9---FDMA.jpg",
+    "answers": [
+      "FDMA",
+      "TDMA",
+      "CDMA",
+      "CSMA CD",
+      "CSMA CA",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762880975904,
+    "question": "La tecnología de Celulares 4 G trajo consigo la característica de un gran aumento de ancho de banda, esto fue posible a través de la tecnología de Modulación:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-005-TP9---4G.jpg",
+    "answers": [
+      "MQAM",
+      "OFDM",
+      "TDMA",
+      "CDMA",
+      "2B1Q",
+      "MPSK",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881171169,
+    "question": "El Canal de comunicaciones establecido de un teléfono celular a una torre de antenas de celulares es de tipo:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-015-TP1---Canal-Celular-Antena.jpg",
+    "answers": [
+      "Analógico y Asincrónico.",
+      "Digital y Sincrónico.",
+      "Simplex.",
+      "Full Duplex.",
+      "Ambas a y d.",
+      "Ambas b y c.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881204589,
+    "question": "La sección de red telefónica celular encargada del manejo del trafico de voz y de datos, responsable de dirigir y conmutar la llamada se la denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-018-TP1---BSC.jpg",
+    "answers": [
+      "BTS–Base Station Transceiver System",
+      "MS–Mobile Station.",
+      "BSC–Base Station Controller.",
+      "PSTN-Public Switched Telephone Network.",
+      "BT – Transceptor Base.",
+      "HetNet.",
+      "Small Cells.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 6,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881240354,
+    "question": "El Primer teléfono celular prototipo fabricado por IBM en 1992 que podía hacer y recibir llamadas telefónicas, faxes, correos electrónicos, que poseía un procesador de 16-bits a una velocidad de 16 MHz compatible con computadores de arquitectura x86 y solo tenía 1 MB de memoria RAM y 1 MB de almacenamiento, correspondía a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-014-TP1---Simons.jpg",
+    "answers": [
+      "Simon.",
+      "BlackBerry 5810.",
+      "DynaTAC 8000x",
+      "Handie Talkie H-12-16.",
+      "Motorola PT-300",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881273502,
+    "question": "La Tecnología emergente basada en el uso de los teléfonos celulares que permiten conectarse a través a redes Wifi.corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-017-TP1---WI-FI--O.jpg",
+    "answers": [
+      "SMALL CELLS",
+      "WIFI HIBRID",
+      "WIFI OFFLOAD",
+      "TRUSTED WIFI",
+      "WIFI AAA",
+      "WIFI DIRECT NETWORK",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881306226,
+    "question": "El tipo de acceso en esquemas de 2ª y 3ª generación donde varios suscriptores transmiten en la misma frecuencia y al mismo tiempo, pero con códigos diferentes, que solamente puede ser codificado por el usuario final, se la denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-011-TP1---CDMA.jpg",
+    "answers": [
+      "FDMA",
+      "TDMA",
+      "CSMA CD",
+      "CDMA",
+      "CSMA CA",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881338534,
+    "question": "La tecnología LTE (Log Term Evolution) de la 4ª generación de Celulares utiliza como tipo de acceso para sus comunicaciones:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-020-TP1---OFDM-MIMO.jpg",
+    "answers": [
+      "OFDM.",
+      "OFDM/MIMO.",
+      "TDMA.",
+      "CDMA.",
+      "CSMA CA.",
+      "CSMA CD.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881372235,
+    "question": "La red de Transporte de Datos Mobile que incluyen las antenas de celulares combinado con enlaces de fibra y microondas se la denomina técnicamente:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-013-TP1---Backhaul.jpg",
+    "answers": [
+      "Backbone de Comunicaciones.",
+      "Troncal de Comunicaciones.",
+      "Core de Comunicaciones.",
+      "Topología Mobile.",
+      "Red de Backhaul.",
+      "Red de Tráfico.",
+      "Red de Transporte.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881429850,
+    "question": "El dispositivo similar a nuestro Access Point WI FI pero que emite en la banda de 3G se lo denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-012-TP1---Femtocelda.jpg",
+    "answers": [
+      "Gateway.",
+      "Extension Point.",
+      "Bridge.",
+      "Femtocelda.",
+      "Modem PLC",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881463823,
+    "question": "En una Arquitectura de Red Mobile donde conviven las celdas normales o denominadas macro y small cells o denominadas micro se la denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-016-TP1---HetNet.jpg",
+    "answers": [
+      "HetNet.",
+      "Mobile Híbrida.",
+      "Backhaul.",
+      "Nodo Combinado.",
+      "NAT.",
+      "FHSS.",
+      "DHSS.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762881488106,
+    "question": "Dentro de la 2ª generación de telefonía celular, con las tecnologías GSM/GPRS/EGPRS, que aplican el tipo de acceso TDMA; la porción de tiempo asignada a cada frecuencia para realizar la comunicación se la denomina:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/01-019-TP1---Time-Slot.jpg",
+    "answers": [
+      "Intervalo.",
+      "Salto de tiempo.",
+      "Porción.",
+      "Time slot.",
+      "Ambas a y b.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
   }
 ]
