@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     const screens = document.querySelectorAll('.screen');
     const themeToggleBtn = document.getElementById('theme-toggle-btn');
     const body = document.body;
@@ -50,6 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const studyBackToMenuBtn = document.getElementById('study-back-to-menu-btn');
     const studyThematicFilter = document.getElementById('study-thematic-filter');
     const studyQuestionsContainer = document.getElementById('study-questions-container');
+    const scrollToTopBtn = document.getElementById('scroll-to-top-btn');
+
     const sunIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
     const moonIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
     const editIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>`;
@@ -376,7 +379,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateSettingsForThematic = (thematicKey) => {
         let questions;
         if (thematicKey === 'ambos') {
-            questions = allQuestions; 
+            questions = allQuestions;
         } else {
             questions = allQuestions.filter(q => q.thematic === thematicKey);
         }
@@ -598,7 +601,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img.addEventListener('click', () => openImageViewer(img.src));
         });
     };
-
+    
     function openImageViewer(src) { imageViewerImg.setAttribute('src', src); imageViewerModal.classList.add('active'); }
     function closeImageViewer() { imageViewerModal.classList.remove('active'); }
     imageViewerClose.addEventListener('click', closeImageViewer);
@@ -609,7 +612,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if(addAnswerBtn) addAnswerBtn.addEventListener('click', () => addAnswerInput());
     if(startGameBtn) startGameBtn.addEventListener('click', showExamSettings);
     if(adminQuestionsBtn) adminQuestionsBtn.addEventListener('click', () => { renderAdminList(); resetForm(); showScreen('admin-screen'); });
-
+    
     if(studyBtn) studyBtn.addEventListener('click', () => {
         const p1Count = allQuestions.filter(q => q.thematic === 'parcial1').length;
         const p2Count = allQuestions.filter(q => q.thematic === 'parcial2').length;
@@ -635,6 +638,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     if(backToMenuBtn) backToMenuBtn.addEventListener('click', () => showScreen('menu-screen'));
     if(adminBackToMenuBtn) adminBackToMenuBtn.addEventListener('click', () => showScreen('menu-screen'));
+
+
+    const handleScroll = () => {
+        if (!scrollToTopBtn) return;
+        if (window.scrollY > 200) {
+            scrollToTopBtn.classList.remove('hidden');
+        } else {
+            scrollToTopBtn.classList.add('hidden');
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
+    if(scrollToTopBtn) {
+        window.addEventListener('scroll', handleScroll);
+        scrollToTopBtn.addEventListener('click', scrollToTop);
+    }
+
 
     const initializeApp = async () => {
         const savedTheme = localStorage.getItem('theme') || 'light';

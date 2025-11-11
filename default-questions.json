@@ -3153,5 +3153,322 @@
     ],
     "correct": 4,
     "thematic": "parcial2"
+  },
+  {
+    "id": 1762872538500,
+    "question": "Para poder bloquear un bombardeo de E-mails y aplicar la utilidad de filtro Spam se debe acceder al:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-09-TP7---Monitor-de-CE.jpg",
+    "answers": [
+      "Administrador de Ancho de banda.",
+      "Administrador de Web.",
+      "Balanceo de Carga.",
+      "Monitor de Correo Electrónico.",
+      "NAT.",
+      "Administrador de Usuarios.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872569655,
+    "question": "Un grupo de computadores (servidores) interconectados que a su vez actúan como un único servidor, que están localizados conjuntamente en una posición física determinada, manejando las peticiones realizadas por los usuarios a través de Internet se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-03-TP7---Granja.jpg",
+    "answers": [
+      "Host.",
+      "Intranet.",
+      "Montante.",
+      "Granja de Servidores.",
+      "DMZ.",
+      "Extranet.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872612389,
+    "question": "Una Computadora que se desempeña como Monitor de Red, compuesto por Hardware y Software, se caracteriza por ser:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-05-TP7---Monitor-de-RED.jpg",
+    "answers": [
+      "Un medidor de nivel de desempeño del Sistema de Red.",
+      "Un Servidor de Red que Exclusivamente comparte las tareas del monitoreo con la administración de Usuarios.",
+      "Un supervisor de Hechos específicos y labrador de estadísticas.",
+      "Un medidor de nivel de colisiones.",
+      "Ambas a, b y c.",
+      "Ambas a b y d.",
+      "Ambas a c y d.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 6,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872647522,
+    "question": "Para limitar el servicio de FTPS, dentro de un Dominio Respectivo, se debe modificar y acceder al:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-07-TP7---FTPS---Firewall.jpg",
+    "answers": [
+      "Access Server.",
+      "Router.",
+      "WWW.",
+      "Proxy.",
+      "Firewall.",
+      "Proxy Reverse.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872681326,
+    "question": "El Componente de un nodo de Internet, que está compuesto por un conjunto de módems en línea con sus puertos conectados a accesos telefónicos unitarios o rotativos; que se encarga de filtrar los accesos bajo clave de identificación se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-06-TP7---Access-Server.jpg",
+    "answers": [
+      "Access Server.",
+      "Router.",
+      "WWW.",
+      "Proxy.",
+      "Firewall.",
+      "Proxy Reverse.",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872719002,
+    "question": "El elemento de un nodo de Internet, compuesto por un computador (Hardware y Software) con interfaz de red multipuerto, que habilita o deshabilita servicios en forma parcial/global de acuerdo a las políticas de la organización se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-01-TP7---Firewall.jpg",
+    "answers": [
+      "Access Server.",
+      "Router.",
+      "WWW.",
+      "Proxy.",
+      "Firewall.",
+      "Servidor de Correo electrónico.",
+      "Monitor de Correo Electrónico.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872806598,
+    "question": "Cuando cambiamos de proveedor de comunicaciones (Telco), dicha empresa nos asigna un rango de direcciones IP públicas a los efectos de identificar nuestros servicios en la red de Internet. Por lo tanto, para ello ocurra se debe modificar la configuración de:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-10-TP7---Registros-DNS.jpg",
+    "answers": [
+      "El Servicio de Correo electrónico.",
+      "Router.",
+      "Firewall.",
+      "Proxy.",
+      "Registros DNS.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872857725,
+    "question": "Cuando configuramos a nuestros DNSs para realizar Asignación en forma cíclica respetando un orden a servicios WEBs, estamos aplicando una técnica de:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-08-TP7---Balanceo-de-Carga.jpg",
+    "answers": [
+      "Administración de Ancho de banda.",
+      "Administración de Web.",
+      "Balanceo de Carga.",
+      "Administración de Correo Electrónico.",
+      "Administración de Usuarios.",
+      "NAT.",
+      "Todas las Anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872892625,
+    "question": "Para evitar el acceso de los usuarios a determinadas páginas de Internet que están prohibidas por la empresa se debe hacer uso y configurar el:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-04-TP7---Monitor-de-Web.jpg",
+    "answers": [
+      "DNS Primario.",
+      "Router.",
+      "WWW.",
+      "Proxy.",
+      "Firewall.",
+      "Proxy Reverse",
+      "Monitor de Página Web o W-Manager",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 6,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762872925846,
+    "question": "El elemento de un nodo de Internet, compuesto por un computador (Hardware y Software) que realiza el servicio de cachear las páginas más accedidas dentro del tiempo de acceso para acelerar la respuesta a la solicitud del usuario se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-02-TP7---Proxy.jpg",
+    "answers": [
+      "Access Server.",
+      "Router.",
+      "WWW.",
+      "Proxy Reverse",
+      "Firewall.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 5,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873418165,
+    "question": "El firewall es un dispositivo de defensa perimetral que separa redes y filtra tráfico dependiendo de reglas predefinidas, También realiza las siguientes acciones:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-18-TP7---Firewall.jpg",
+    "answers": [
+      "Protege a nuestra RED de ataques internos.",
+      "Protege a nuestra Red de accesos no autorizados.",
+      "Protege a nuestra Red de todos los ataques dañinos de malwares.",
+      "Releva las Alertas de Ataque cuando se producen.",
+      "Divide a la red en 3 zonas básicas, Interna, externa y DMZ.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873450801,
+    "question": "El Dispositivo que separa/protege dos redes asegurando la unidireccionalidad en el flujo de información permitiendo que la información de una red llegue a otra red (pero no viceversa) corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-20-TP7---Diodo.jpg",
+    "answers": [
+      "Firewall.",
+      "Proxy",
+      "Access Server.",
+      "Router.",
+      "Diodo de datos.",
+      "DNS",
+      "Proxy Reverse.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873635657,
+    "question": "El Servidor especial encargado, entre otras cosas, de centralizar el tráfico entre Internet y una red privada, de forma que evita que cada una de las máquinas de la red interior tenga que disponer necesariamente de una conexión directa a la red. Al mismo tiempo contiene mecanismos que impiden accesos no autorizados desde el exterior hacia la red privada. Dicho servidor corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-19-TP7---Proxy.jpg",
+    "answers": [
+      "Firewall.",
+      "Proxy.",
+      "Access Server.",
+      "Router.",
+      "Monitor de Red.",
+      "Proxy Reverse",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873723853,
+    "question": "El programa o software de administración instalado en el Firewall o en proximidad, que Registra alertas de ataques en un Archivo el Origen, de donde proviene la incursión (Dirección IP), El Servicio, el Puerto, la Fecha y Hora de cuando fue realizado el Intento se lo denomina:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-11-TP7---IDS.jpg",
+    "answers": [
+      "Firewall.",
+      "IDS.",
+      "Relevador de Alertas.",
+      "Router.",
+      "Monitor de Red",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873761762,
+    "question": "Dentro de las técnicas de balanceo de carga, podemos detallar:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-16-TP7---Balanceo-de-Carga.jpg",
+    "answers": [
+      "Balanceo de Ruteo.",
+      "Balanceo de Peticiones.",
+      "Balanceo de Aplicaciones.",
+      "Balanceo de Sesiones.",
+      "Ambas B y D.",
+      "Ambas A y C.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873792926,
+    "question": "Dentro de los primeros servicios de Internet, aquel servicio de Internet que publica basado en Bases de datos de documentos indexados bajo el Protocolo ANSI Z39.50 con acceso a través de Telnet corresponde a:\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-15-TP7---WAIS.jpg",
+    "answers": [
+      "Gopher.",
+      "Archie.",
+      "Wais.",
+      "Finger.",
+      "BBS.",
+      "Trace",
+      "Ninguna de las Anteriores es Correcta."
+    ],
+    "correct": 2,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873824609,
+    "question": "El Software de Administración y control para Servidores de Acceso Remoto, que autentica las acciones de acceso remoto mediante las llamadas, protocolos y filtros y soporta la seguridad adicional de los servidores proxy corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-17-TP7---Radius.jpg",
+    "answers": [
+      "Gopher.",
+      "TFTP.",
+      "Wais.",
+      "Finger.",
+      "Radius.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 4,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873843228,
+    "question": "EL Modelo de N-Tiers (N-Capas) es un concepto utilizado en Arquitectura-Cliente Servidor en Redes de Procesamiento de datos centralizadas y nace con la necesidad de compartir aplicaciones centralizadas en distintas computadoras y que las mismas otorguen servicios a través de Internet. A su vez normaliza las aplicaciones centralizándolas en capas para que el Procesamiento sea seguro y confiable.\n",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-13-TP7---N-Tiers.jpg",
+    "answers": [
+      "Verdadero.",
+      "Falso."
+    ],
+    "correct": 1,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873871503,
+    "question": "Dentro de los primeros servicios de Internet, aquel elemento basado en uno o varios servidores; que permite visualizar directorios, acceder a información a través de una interfaz basada en menú y trabaja con componentes como Ítems, Documentos, Bookmark corresponde a:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-14-TP7---Gopher.jpg",
+    "answers": [
+      "Gopher.",
+      "Archie.",
+      "Wais.",
+      "Finger.",
+      "BBS.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 0,
+    "thematic": "parcial2"
+  },
+  {
+    "id": 1762873909813,
+    "question": "Cuando observamos un aumento considerable dentro de las peticiones procedentes de los servicios WWW institucional y eso se traduce en lentitud para responder a las peticiones solicitadas podemos reconfigurar instalando un:",
+    "imageUrl": "https://miel.unlam.edu.ar/data2/evaluacion/2634/001-12-TP7---Balanceo-de-carga.jpg",
+    "answers": [
+      "Monitor de Página Web o Web Manager.",
+      "Router Adicional.",
+      "Monitor de Correo electrónico o E Manager.",
+      "Servidor Balanceador de Carga.",
+      "Servidor de Transacciones Intermedias.",
+      "Otro Proxy.",
+      "Todas las anteriores son correctas.",
+      "Ninguna de las Anteriores es correcta."
+    ],
+    "correct": 3,
+    "thematic": "parcial2"
   }
 ]
