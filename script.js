@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-
     const screens = document.querySelectorAll('.screen');
     const themeToggleBtn = document.getElementById('theme-toggle-btn');
     const body = document.body;
@@ -46,7 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageViewerClose = document.getElementById('image-viewer-close');
     const deleteSelectedBtn = document.getElementById('delete-selected-btn');
     const selectAllCheckbox = document.getElementById('select-all-checkbox');
-
+    const studyBtn = document.getElementById('study-btn');
+    const studyScreen = document.getElementById('study-screen');
+    const studyBackToMenuBtn = document.getElementById('study-back-to-menu-btn');
+    const studyThematicFilter = document.getElementById('study-thematic-filter');
+    const studyQuestionsContainer = document.getElementById('study-questions-container');
     const sunIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
     const moonIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
     const editIcon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>`;
@@ -359,6 +362,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (totalP2 > 0) {
                 thematicSelectExam.innerHTML += `<option value="parcial2">Parcial 2 (Total: ${totalP2})</option>`;
             }
+            if (totalP1 > 0 && totalP2 > 0) {
+                thematicSelectExam.innerHTML += `<option value="ambos">Ambos (Total: ${totalP1 + totalP2})</option>`;
+            }
         }
         
         const initialThematic = thematicSelectExam.value;
@@ -368,7 +374,12 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const updateSettingsForThematic = (thematicKey) => {
-        const questions = allQuestions.filter(q => q.thematic === thematicKey);
+        let questions;
+        if (thematicKey === 'ambos') {
+            questions = allQuestions; 
+        } else {
+            questions = allQuestions.filter(q => q.thematic === thematicKey);
+        }
         const totalQuestions = questions.length;
         
         if (totalQuestions > 0) {
@@ -394,9 +405,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if(settingsStartBtn) settingsStartBtn.addEventListener('click', () => {
         const thematicKey = thematicSelectExam.value;
-        const questionsSource = allQuestions.filter(q => q.thematic === thematicKey);
-        const totalQuestions = questionsSource.length;
+        let questionsSource;
         
+        if (thematicKey === 'ambos') {
+            questionsSource = allQuestions;
+        } else {
+            questionsSource = allQuestions.filter(q => q.thematic === thematicKey);
+        }
+        
+        const totalQuestions = questionsSource.length;
         const duration = parseInt(examDurationInput.value);
         const count = parseInt(examQuestionsCountInput.value);
 
@@ -518,11 +535,70 @@ document.addEventListener('DOMContentLoaded', () => {
         const percentageCorrect = totalQuestions > 0 ? (score / totalQuestions) * 100 : 0;
         const isApproved = percentageCorrect >= 70;
         
-        const thematicName = selectedThematic === 'parcial1' ? 'Parcial 1' : 'Parcial 2';
+        let thematicName;
+        if (selectedThematic === 'parcial1') {
+            thematicName = 'Parcial 1';
+        } else if (selectedThematic === 'parcial2') {
+            thematicName = 'Parcial 2';
+        } else {
+            thematicName = 'Ambos Parciales';
+        }
         
         finalSummary.innerHTML = `<p class="summary-score">Examen de ${thematicName}: ${score} de ${totalQuestions} correctas.</p><p class="summary-status ${isApproved ? 'approved' : 'failed'}">${isApproved ? 'APROBADO' : 'DESAPROBADO'}</p>`;
     };
     
+    const renderStudyList = () => {
+        if (!studyQuestionsContainer) return;
+        
+        const filterValue = studyThematicFilter.value;
+        let questionsToRender;
+
+        if (filterValue === 'todos') {
+            questionsToRender = allQuestions;
+        } else {
+            questionsToRender = allQuestions.filter(q => q.thematic === filterValue);
+        }
+
+        studyQuestionsContainer.innerHTML = '';
+        
+        if (questionsToRender.length === 0) {
+            studyQuestionsContainer.innerHTML = '<p class="no-questions-study">No hay preguntas para mostrar en esta categoría.</p>';
+            return;
+        }
+
+        questionsToRender.forEach((question, qIndex) => {
+            const questionItemDiv = document.createElement('div');
+            questionItemDiv.classList.add('question-item', 'study-item');
+            
+            let imageHtml = question.imageUrl ? `<img src="${question.imageUrl}" alt="Imagen de la pregunta" class="zoomable-image">` : '';
+            
+            let answersHtml = '';
+            question.answers.forEach((answer, aIndex) => {
+                const isCorrect = (aIndex === question.correct);
+                answersHtml += `<li class="${isCorrect ? 'study-correct-answer' : ''}">
+                    <span class="study-marker">${isCorrect ? '✔' : '•'}</span>
+                    <span>${answer}</span>
+                </li>`;
+            });
+
+            const thematicDisplay = question.thematic === 'parcial1' ? 'P1' : 'P2';
+            
+            questionItemDiv.innerHTML = `
+                <div class="study-question-header">
+                    <h3>${qIndex + 1}) ${question.question}</h3>
+                    <span class="study-thematic-tag">[${thematicDisplay}]</span>
+                </div>
+                ${imageHtml}
+                <ul class="answers-list study-answers-list">${answersHtml}</ul>
+            `;
+            studyQuestionsContainer.appendChild(questionItemDiv);
+        });
+
+        studyQuestionsContainer.querySelectorAll('.zoomable-image').forEach(img => {
+            img.addEventListener('click', () => openImageViewer(img.src));
+        });
+    };
+
     function openImageViewer(src) { imageViewerImg.setAttribute('src', src); imageViewerModal.classList.add('active'); }
     function closeImageViewer() { imageViewerModal.classList.remove('active'); }
     imageViewerClose.addEventListener('click', closeImageViewer);
@@ -533,6 +609,25 @@ document.addEventListener('DOMContentLoaded', () => {
     if(addAnswerBtn) addAnswerBtn.addEventListener('click', () => addAnswerInput());
     if(startGameBtn) startGameBtn.addEventListener('click', showExamSettings);
     if(adminQuestionsBtn) adminQuestionsBtn.addEventListener('click', () => { renderAdminList(); resetForm(); showScreen('admin-screen'); });
+
+    if(studyBtn) studyBtn.addEventListener('click', () => {
+        const p1Count = allQuestions.filter(q => q.thematic === 'parcial1').length;
+        const p2Count = allQuestions.filter(q => q.thematic === 'parcial2').length;
+        
+        studyThematicFilter.innerHTML = `<option value="todos">Todos (Total: ${allQuestions.length})</option>`;
+        if (p1Count > 0) {
+            studyThematicFilter.innerHTML += `<option value="parcial1">Parcial 1 (Total: ${p1Count})</option>`;
+        }
+        if (p2Count > 0) {
+            studyThematicFilter.innerHTML += `<option value="parcial2">Parcial 2 (Total: ${p2Count})</option>`;
+        }
+        
+        renderStudyList();
+        showScreen('study-screen');
+    });
+    if(studyBackToMenuBtn) studyBackToMenuBtn.addEventListener('click', () => showScreen('menu-screen'));
+    if(studyThematicFilter) studyThematicFilter.addEventListener('change', renderStudyList);
+
     if(finishGameBtn) finishGameBtn.addEventListener('click', () => {
         const unansweredCount = userAnswers.filter(answer => answer === null).length;
         if (unansweredCount > 0) showModal('Finalizar Examen',`Aún tienes ${unansweredCount} pregunta(s) sin responder. ¿Quieres finalizar?`);

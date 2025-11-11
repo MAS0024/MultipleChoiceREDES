@@ -21,8 +21,9 @@
             <p class="subtitle">Ponte en practica para los Parciales</p>
             <div class="menu-actions">
                 <button id="start-game-btn" class="btn primary-btn">Iniciar Examen</button>
-               <button id="admin-questions-btn" class="btn secondary-btn">Administrar Preguntas</button>
-                </div>
+                <button id="study-btn" class="btn primary-btn">Estudiar</button>
+                <button id="admin-questions-btn" class="btn secondary-btn">Administrar Preguntas</button>
+            </div>
         </div>
 
         <div id="game-screen" class="screen">
@@ -86,21 +87,37 @@
                     </form>
                 </div>
                 <div class="admin-list-container">
-    <h3>Preguntas Existentes</h3>
-    <div class="selection-controls">
-        <label><input type="checkbox" id="select-all-checkbox"> Seleccionar Todo</label>
-        <button id="delete-selected-btn" class="btn secondary-btn hidden">Eliminar Seleccionadas</button>
-    </div>
-    <div class="import-export-buttons">
-        <button id="export-btn" class="btn secondary-btn">Exportar</button>
-        <label for="import-file" class="btn secondary-btn">Importar</label>
-        <input type="file" id="import-file" accept=".json" style="display: none;">
-    </div>
-    <ul id="questions-list"></ul>
-</div>
+                    <h3>Preguntas Existentes</h3>
+                    <div class="selection-controls">
+                        <label><input type="checkbox" id="select-all-checkbox"> Seleccionar Todo</label>
+                        <button id="delete-selected-btn" class="btn secondary-btn hidden">Eliminar Seleccionadas</button>
+                    </div>
+                    <div class="import-export-buttons">
+                        <button id="export-btn" class="btn secondary-btn">Exportar</button>
+                        <label for="import-file" class="btn secondary-btn">Importar</label>
+                        <input type="file" id="import-file" accept=".json" style="display: none;">
+                    </div>
+                    <ul id="questions-list"></ul>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div id="study-screen" class="screen">
+            <div class="admin-header">
+                <h1 class="main-title">Modo de Estudio</h1>
+                <button id="study-back-to-menu-btn" class="btn secondary-btn">← Volver al Menú</button>
+            </div>
+            <div class="study-controls">
+                <label for="study-thematic-filter">Filtrar por:</label>
+                <select id="study-thematic-filter">
+                    <option value="todos">Todos</option>
+                    <option value="parcial1">Parcial 1</option>
+                    <option value="parcial2">Parcial 2</option>
+                </select>
+            </div>
+            <div id="study-questions-container"></div>
+        </div>
+        </div>
 
     <div id="confirm-modal" class="modal">
         <div class="modal-content">
